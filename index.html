@@ -12,7 +12,7 @@
 <body>
 
     <body>
-        <div class="container">
+        <div class="container sfondo">
 
          <div class="row p-5">
 
@@ -21,18 +21,24 @@
             <div class="col-8 m-5 p-3">
 
                 
+            <input type="text" for="inputName" name="name" class="form-control mb-2" placeholder="Nome e Cognome"></input>
+              <input type="text" for="inputKm" name="km" class="form-control mb-2" placeholder="Distanza da percorrere (km)"></input>
 
-              <input type="text" for="distanza" name="width" class="form-control mb-2" placeholder="Distanza da percorrere (km)"></input>
+               <select id="selectDiscount">
 
-               <select id="sconto">
-                
-                 <option value="0">Nessuno sconto</option>
-                 <option value="0.2">Sconto minorenne</option>
-                 <option value="0.4">Sconto over 65</option>
+                 <option value="none">Nessuno sconto</option>
+                 <option value="minorenne">Sconto minorenne</option>
+                 <option value="over65">Sconto over 65</option>
 
                </select> 
 
-              <input type="button" class="btn btn-danger m-3" value="Calcola">
+               <button>Calcola prezzo</button>
+
+               <div id="priceOutput" class="risultato mt-4">Il prezzo del biglietto è..</div>
+
+               <p id="nameOutput"> Grazie per l'acquisto,</p>
+        
+                  
 
               
  
