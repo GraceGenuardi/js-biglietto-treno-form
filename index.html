@@ -11,44 +11,45 @@
 </head>
 <body>
 
-    <body>
-        <div class="container sfondo">
+    <body class="trenitalia">
+        <main>
+         <div class="container sfondo">
 
-         <div class="row p-5">
+          <div class="row p-5">
 
             <h2 class=" text-danger text-wrap fw-semibold">Compila il form</h2>
 
             <div class="col-8 m-5 p-3">
 
                 
-            <input type="text" for="inputName" name="name" class="form-control mb-2" placeholder="Nome e Cognome"></input>
-              <input type="text" for="inputKm" name="km" class="form-control mb-2" placeholder="Distanza da percorrere (km)"></input>
+              <input type="text" for="inputName" name="name" class="form-control mb-2" placeholder="Nome e Cognome"></input>
+               <input type="text" for="inputKm" name="km" class="form-control mb-2" placeholder="Distanza da percorrere (km)"></input>
 
-               <select id="selectDiscount">
+                <select id="selectDiscount">
 
-                 <option value="none">Nessuno sconto</option>
-                 <option value="minorenne">Sconto minorenne</option>
-                 <option value="over65">Sconto over 65</option>
+                  <option value="none">Nessuno sconto</option>
+                  <option value="minorenne">Sconto minorenne</option>
+                  <option value="over65">Sconto over 65</option>
 
-               </select> 
+                </select> 
 
-               <button>Calcola prezzo</button>
+                <button class="btn btn-danger ">Calcola prezzo</button>
 
-               <div id="priceOutput" class="risultato mt-4">Il prezzo del biglietto è..</div>
+                <div id="priceOutput" class=" mt-4">Il prezzo del biglietto è..</div>
 
-               <p id="nameOutput"> Grazie per l'acquisto,</p>
+                <p id="nameOutput"> Grazie per l'acquisto,</p>
         
                   
 
               
  
-            </div>     
+             </div>     
 
-         </div>  
+          </div>  
 
-        </div>
+         </div>
 
-
+        </main>  
   
     <script src="./js/app.js"></script>
     

@@ -16,7 +16,7 @@ const prezzoIntero = document.querySelector("#priceOutput");
 buttonCalcolatore.addEventListener("click", function() {
   const km = parseFloat(inputKm.value);
   const name = inputName.value;
-  const discount = scegliSconto.value;
+  const sconto = scegliSconto.value;
   let price = km * 0.21;
 
 
@@ -26,9 +26,9 @@ buttonCalcolatore.addEventListener("click", function() {
     //-SE >= 65 AVRAI UNO SCONTO DEL 40%
         //-ALTRIMENTI Prezzo 0.21 € al km 
 
-  if (discount === "minorenne") {
+  if (sconto === "minorenne") {
     price = price - (price * 0.2);
-  } else if (discount === "over65") {
+  } else if (sconto === "over65") {
     price = price - (price * 0.4);
   }
 
