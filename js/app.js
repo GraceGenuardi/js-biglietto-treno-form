@@ -34,8 +34,9 @@ buttonCalcolatore.addEventListener("click", function() {
 
 
  //3-Al click sul pulsante calcolare il prezzo del biglietto. 
+  nameOutput.innerHTML = `Grazie ${name} per l'acquisto!`;
   prezzoIntero.innerHTML = `Il prezzo del biglietto è: €${price.toFixed(2)}`;
-  nameOutput.innerHTML = `Grazie ${name} per l'acquisto, il prezzo del biglietto è di €${price.toFixed(2)}`;
+ 
 
 
 

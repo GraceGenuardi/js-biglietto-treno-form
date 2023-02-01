@@ -1,4 +1,4 @@
-.sfondo {
+.form {
     margin-top: 10px;
     background-color: white;
     border: 2px solid red;
@@ -7,3 +7,15 @@
 .trenitalia {
     background-image: url(../img/Immagine\ 2023-02-01\ 170659.png);
 }
+
+.logo img{
+    width: 250px;
+
+}
+
+.ticket {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
