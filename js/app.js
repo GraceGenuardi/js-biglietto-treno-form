@@ -7,6 +7,8 @@ const scegliSconto = document.querySelector("select");
 const buttonCalcolatore = document.querySelector("button");
 const prezzoIntero = document.querySelector("#priceOutput");
 
+//console.log(inputKm - inputName richiesti in home page )
+
 
 
 
@@ -18,6 +20,8 @@ buttonCalcolatore.addEventListener("click", function() {
   const name = inputName.value;
   const sconto = scegliSconto.value;
   let price = km * 0.21;
+
+//console.log(click= nome+prezzo con sconto)
 
 
  //-SE <= 18 AVRAI UNO SCONTO DEL 20%
