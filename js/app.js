@@ -16,7 +16,7 @@ const prezzoIntero = document.querySelector("#priceOutput");
 
 
 buttonCalcolatore.addEventListener("click", function() {
-  const km = parseFloat(inputKm.value);
+  const km = parseInt(inputKm.value);
   const name = inputName.value;
   const sconto = scegliSconto.value;
   let price = km * 0.21;
